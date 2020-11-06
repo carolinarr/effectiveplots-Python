@@ -1,0 +1,23 @@
+Data Sources
+
+*usa_population_2010-2019.xlsx*
+********************
+Source: census.gov
+URL: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html
+Accessed: 2020-10-30
+File Downloaded: Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico: April 1, 2010 to July 1, 2019 (NST-EST2019-01)  
+
+
+*usa_covid_2020-10-30.csv*
+*************************
+Source: COVID Data Tracker, cdc.gov
+URL: https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days
+Accessed: 2020-10-30
+
+*covid_population_usa_2020-10-03_clean.csv
+*******************************
+From usa_covid_2020-10-30.csv:
+-removed cities, territories, etc., to only include 50 states
+-deleted probably & confirmed columns
+-renamed columns
+-added estimated population in 2019 from usa_population_2010-2019.xlsx
